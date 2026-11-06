@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>厂长参谋 · 进入</title>
+<link rel="stylesheet" href="/static/style.css">
+<style>
+  body{display:grid;place-items:center;min-height:100vh;background:
+    radial-gradient(1200px 500px at 20% -10%, #e8eefb 0%, transparent 60%), var(--bg)}
+  .gate{width:360px;max-width:92vw;background:#fff;border:1px solid var(--line);
+        border-radius:16px;padding:28px 26px 22px;box-shadow:0 8px 30px rgba(20,35,70,.08)}
+  .gate .brand{margin-bottom:18px}
+  .gate h2{margin:0 0 4px;font-size:15px;letter-spacing:.5px}
+  .gate .hint{margin:0 0 18px;font-size:12px;color:var(--sub);line-height:1.7}
+  .gate label{display:block;font-size:12px;color:var(--sub);margin:12px 0 5px}
+  .gate input{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:9px;
+              font:inherit;color:var(--ink);outline:none;background:#fbfcfe}
+  .gate input:focus{border-color:var(--blue);background:#fff}
+  .gate button{width:100%;margin-top:18px;padding:10px;border:0;border-radius:9px;
+               background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;
+               font:inherit;font-weight:600;cursor:pointer}
+  .gate button:disabled{opacity:.6;cursor:default}
+  .gate .err{min-height:18px;margin-top:10px;font-size:12px;color:var(--must)}
+  .gate .foot{margin-top:14px;font-size:11px;color:#98a1b0;line-height:1.6}
+</style>
+</head>
+<body>
+<form class="gate" id="f">
+  <div class="brand">
+    <div class="logo">参</div>
+    <div>
+      <h1>厂长参谋</h1>
+      <p>产业带工厂的 AI 出海参谋</p>
+    </div>
+  </div>
+  <h2>评审访问</h2>
+  <p class="hint">这是一个内部测试环境，需要口令才能进入。<br>口令见参赛材料中的「账号密码」一栏。</p>
+  <label for="u">账号</label>
+  <input id="u" name="user" autocomplete="username" value="judge">
+  <label for="p">口令</label>
+  <input id="p" name="password" type="password" autocomplete="current-password" autofocus>
+  <button id="b" type="submit">进入</button>
+  <div class="err" id="e"></div>
+  <div class="foot">本页不记录输入内容。会话数据仅保存在本次访问中，关闭标签页后不留给下一位使用者。</div>
+</form>
+<script>
+(function () {
+  var f = document.getElementById("f"), b = document.getElementById("b"),
+      e = document.getElementById("e");
+  f.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    b.disabled = true; e.textContent = "";
+    fetch("/api/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        user: document.getElementById("u").value.trim(),
+        password: document.getElementById("p").value
+      })
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      if (d && d.ok) { location.replace("/"); return; }
+      b.disabled = false;
+      e.textContent = (d && d.error) || "口令不对";
+    }).catch(function () {
+      b.disabled = false;
+      e.textContent = "网络错误，稍后再试";
+    });
+  });
+})();
+</script>
+</body>
+</html>

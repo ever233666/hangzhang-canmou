@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>厂长参谋 · 产业带工厂的 AI 出海参谋</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="logo">厂</div>
+      <div>
+        <h1>厂长参谋</h1>
+        <p>产业带工厂的 AI 出海参谋</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="sidTag" class="tag" style="display:none"></span>
+      <span id="freshTag" class="tag" style="display:none"></span>
+      <span id="modeTag" class="tag tag-mock">样例模式</span>
+      <button id="byokBtn" class="ghost" title="配置客户自带的模型密钥">模型</button>
+      <button id="resetBtn" class="ghost" title="重新开始">重来</button>
+      <button id="logoutBtn" class="ghost" style="display:none" title="退出登录">退出</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="chat card">
+      <div id="msgs" class="msgs"></div>
+      <div id="chips" class="chips"></div>
+      <form id="composer" class="composer">
+        <label class="attach" title="上传产品照片">
+          <input id="file" type="file" accept="image/*" hidden>
+          <span>＋ 照片</span>
+        </label>
+        <input id="text" type="text" placeholder="比如：我做碳纤维自行车车架，想卖到欧盟" autocomplete="off">
+        <button type="submit">发送</button>
+      </form>
+      <div class="hint">本工具列出要求与缺口，不判定产品是否合规。每条均附原文链接，是否适用由贵司核对确认；确认人与时间记入档案。</div>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <div class="card-head">
+          <h2>企业档案</h2>
+          <span>
+            <span class="muted" id="stateTag">待建档</span>
+            <button id="refreshBtn" class="mini" style="padding:2px 8px;font-size:11px;margin-left:6px" title="从服务端重新读取档案">刷新</button>
+          </span>
+        </div>
+        <dl id="profile" class="kv"></dl>
+      </div>
+
+      <div class="card grow">
+        <div class="card-head">
+          <h2>产出物</h2>
+          <nav class="tabs">
+            <button class="tab active" data-tab="listing">Listing</button>
+            <button class="tab" data-tab="compliance">合规</button>
+            <button class="tab" data-tab="policy">政策</button>
+          </nav>
+        </div>
+        <div id="tabBody" class="tab-body">
+          <p class="empty">还没有产出。上传一张产品照片，或者直接描述你的产品。</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+</div>
+<div id="byokPanel" class="byok" style="display:none">
+  <div class="byok-head">模型设置 · 使用你自己的密钥<button id="byokClose">×</button></div>
+  <label>API 地址<input id="b_url" placeholder="https://open.bigmodel.cn/api/paas/v4"></label>
+  <label>模型<input id="b_model" placeholder="glm-4-plus"></label>
+  <label>视觉模型<input id="b_vision" placeholder="glm-4v-flash"></label>
+  <label>API 密钥<input id="b_key" type="password" placeholder="只保存在服务端，不回传浏览器"></label>
+  <div class="byok-actions">
+    <button id="b_save" class="mini primary">保存并启用</button>
+    <button id="b_clear" class="mini">清除</button>
+  </div>
+  <p id="b_hint" class="why"></p>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

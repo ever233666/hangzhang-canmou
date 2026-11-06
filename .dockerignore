@@ -1,0 +1,14 @@
+.env
+.env.*
+data/sessions/
+data/profiles/
+data/byok.json
+__pycache__/
+*.pyc
+.git/
+docs/
+*.zip
+*.docx
+*.pptx
+*.xlsx
+preview/

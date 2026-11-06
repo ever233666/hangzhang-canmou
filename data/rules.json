@@ -1,0 +1,1598 @@
+[
+ {
+  "id": "eu-gpsr",
+  "category": "any",
+  "market": "eu",
+  "title": "欧盟通用产品安全条例 GPSR (EU) 2023/988",
+  "requirement": "2024-12-13 起强制适用。必须在欧盟境内有责任人（Responsible Person），产品及包装标注其名称与地址，并保留技术文件与追溯信息。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+  "keywords": [
+   "gpsr",
+   "责任人",
+   "responsible person",
+   "追溯"
+  ],
+  "why_template": "任何进入欧盟的消费品都适用，且平台会直接下架无责任人的链接。"
+ },
+ {
+  "id": "eu-reach-svhc",
+  "category": "any",
+  "market": "eu",
+  "title": "REACH 高关注物质 SVHC 与 SCIP 通报",
+  "requirement": "物品中 SVHC 含量超过 0.1%（重量比）时，须向客户提供安全使用信息，并向 ECHA 的 SCIP 数据库提交通报。",
+  "severity": "must",
+  "source": "ECHA",
+  "source_url": "https://echa.europa.eu/candidate-list-table",
+  "keywords": [
+   "reach",
+   "svhc",
+   "scip",
+   "高关注物质"
+  ],
+  "why_template": "金属件、涂层、塑料件都可能含 SVHC，是最常见的抽查项。"
+ },
+ {
+  "id": "eu-packaging-epr",
+  "category": "any",
+  "market": "eu",
+  "title": "包装法与生产者责任延伸 EPR",
+  "requirement": "在销售目的国注册包装 EPR，申报包装材质与重量并缴纳回收费；德国须在 LUCID 注册，法国须在 ADEME 注册。",
+  "severity": "must",
+  "source": "欧盟包装与包装废弃物法规",
+  "source_url": "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste_en",
+  "keywords": [
+   "epr",
+   "包装",
+   "lucid",
+   "ademe"
+  ],
+  "why_template": "只要发货就有包装，亚马逊等平台会校验 EPR 注册号。"
+ },
+ {
+  "id": "eu-battery",
+  "category": "bike",
+  "market": "eu",
+  "title": "欧盟新电池法 (EU) 2023/1542",
+  "requirement": "2027 年起便携式电池须可由最终用户拆卸更换；逐步要求碳足迹声明、回收成分与电池护照。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+  "keywords": [
+   "电池",
+   "battery",
+   "碳足迹",
+   "可拆卸"
+  ],
+  "why_template": "电动助力车含电池即适用，结构设计要提前考虑可拆卸。",
+  "powered_only": true
+ },
+ {
+  "id": "eu-en15194",
+  "category": "bike",
+  "market": "eu",
+  "title": "EN 15194 电动助力自行车",
+  "requirement": "EPAC 须满足 EN 15194：电机额定连续输出不超过 250W，助力在时速 25km/h 时切断，电池与电控须通过相应测试。",
+  "severity": "must",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "en15194",
+   "epac",
+   "250w",
+   "助力"
+  ],
+  "why_template": "EN 15194 针对整车 EPAC 系统，含电池、电控与整机匹配",
+  "powered_only": true,
+  "applies_to": "complete"
+ },
+ {
+  "id": "eu-en14764",
+  "category": "bike",
+  "market": "eu",
+  "title": "EN 14764 / EN 14781 整车安全",
+  "requirement": "城市与旅行车按 EN 14764，竞赛车按 EN 14781 做疲劳与冲击测试，车架、前叉、把立为主要失效件。",
+  "severity": "should",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "en14764",
+   "en14781",
+   "疲劳",
+   "车架"
+  ],
+  "why_template": "EN 14764/14781 是对整车的疲劳与冲击测试，部件无法单独适用",
+  "applies_to": "complete"
+ },
+ {
+  "id": "eu-weee",
+  "category": "bike",
+  "market": "eu",
+  "title": "废弃电子电气设备 WEEE 注册",
+  "requirement": "含电机、控制器、显示屏等电气部件的产品须在各成员国注册 WEEE，标注打叉垃圾桶标识。",
+  "severity": "should",
+  "source": "欧盟 WEEE 指令 2012/19/EU",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2012/19/oj",
+  "keywords": [
+   "weee",
+   "回收",
+   "电气"
+  ],
+  "why_template": "电动车型号几乎必然落入 WEEE 范围。",
+  "powered_only": true
+ },
+ {
+  "id": "eu-en14041",
+  "category": "carpet",
+  "market": "eu",
+  "title": "EN 14041 铺地材料 CE 标识",
+  "requirement": "弹性与层压铺地材料须按 EN 14041 做 CE 标识，涵盖防火反应、防滑、有害物质释放等性能声明。",
+  "severity": "must",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "en14041",
+   "ce",
+   "铺地",
+   "防火"
+  ],
+  "why_template": "工程与商用项目招标时，没有 CE 标识直接失去资格。"
+ },
+ {
+  "id": "eu-carpet-azo",
+  "category": "carpet",
+  "market": "eu",
+  "title": "REACH 附录 XVII 偶氮染料限制",
+  "requirement": "与皮肤接触的纺织制品，禁用 22 种可分解致癌芳香胺偶氮染料，限量 30mg/kg。",
+  "severity": "must",
+  "source": "ECHA",
+  "source_url": "https://echa.europa.eu/substances-restricted-under-reach",
+  "keywords": [
+   "偶氮",
+   "azo",
+   "染料",
+   "附录xvii"
+  ],
+  "why_template": "地毯属于皮肤接触纺织品，是海关抽检的高频项目。"
+ },
+ {
+  "id": "eu-rohs",
+  "category": "hardware",
+  "market": "eu",
+  "title": "RoHS 2.0 有害物质限制",
+  "requirement": "电气电子设备限制铅、汞、镉、六价铬、多溴联苯等 10 种物质，须提供检测报告与符合性声明。",
+  "severity": "must",
+  "source": "欧盟 RoHS 指令 2011/65/EU",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2011/65/oj",
+  "keywords": [
+   "rohs",
+   "铅",
+   "镉",
+   "有害物质"
+  ],
+  "why_template": "任何带电的五金件都会被要求提供 RoHS 报告。"
+ },
+ {
+  "id": "eu-nickel",
+  "category": "hardware",
+  "market": "eu",
+  "title": "镍释放 EN 1811 与 EN 12472",
+  "requirement": "长期接触皮肤的金属制品，镍释放量须低于 0.5 μg/cm²/周。",
+  "severity": "should",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "镍",
+   "nickel",
+   "en1811",
+   "皮肤接触"
+  ],
+  "why_template": "拉手、扣具、表带类五金最容易超标。"
+ },
+ {
+  "id": "us-cpsc-1512",
+  "category": "bike",
+  "market": "us",
+  "title": "16 CFR Part 1512 自行车安全标准",
+  "requirement": "整车须满足刹车、车把、车架、脚踏、链条罩等要求，并在车架永久标注序列号与制造商信息。",
+  "severity": "must",
+  "source": "CPSC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-C/part-1512",
+  "keywords": [
+   "1512",
+   "cpsc",
+   "刹车",
+   "序列号"
+  ],
+  "why_template": "16 CFR 1512 约束的是整车，部件由采购合同约束",
+  "applies_to": "complete"
+ },
+ {
+  "id": "us-ul2849",
+  "category": "bike",
+  "market": "us",
+  "title": "UL 2849 电动自行车电气系统",
+  "requirement": "电池、电机、充电器与控制器须按 UL 2849 做系统级认证；多数平台与保险要求提供证书。",
+  "severity": "must",
+  "source": "UL Standards",
+  "source_url": "https://www.ul.com/",
+  "keywords": [
+   "ul2849",
+   "电气",
+   "电池",
+   "认证"
+  ],
+  "why_template": "亚马逊美国站对电动自行车强制要求 UL 2849 证书。",
+  "powered_only": true
+ },
+ {
+  "id": "us-fcc",
+  "category": "bike",
+  "market": "us",
+  "title": "FCC Part 15 无意辐射体",
+  "requirement": "含电机控制器、蓝牙、显示屏等电子模块的产品须满足 FCC Part 15 Subpart B，并保留测试报告。",
+  "severity": "should",
+  "source": "FCC",
+  "source_url": "https://www.fcc.gov/general/radio-frequency-device-certification",
+  "keywords": [
+   "fcc",
+   "part15",
+   "电磁",
+   "辐射"
+  ],
+  "why_template": "带蓝牙或无线遥控的车型必查。",
+  "powered_only": true
+ },
+ {
+  "id": "us-cpsia",
+  "category": "any",
+  "market": "us",
+  "title": "CPSIA 儿童产品与追溯标签",
+  "requirement": "若产品可能被 12 岁以下儿童使用，须做第三方检测、出具儿童产品证书 CPC，并加贴永久追溯标签。",
+  "severity": "should",
+  "source": "CPSC",
+  "source_url": "https://www.cpsc.gov/Business--Manufacturing",
+  "keywords": [
+   "cpsia",
+   "cpc",
+   "儿童",
+   "追溯标签"
+  ],
+  "why_template": "颜色鲜艳、尺寸偏小的产品容易被判定为儿童用品。"
+ },
+ {
+  "id": "us-prop65",
+  "category": "any",
+  "market": "us",
+  "title": "加州 65 号提案警示标签",
+  "requirement": "若产品含加州清单中的化学物质且超过安全港水平，须在包装与 listing 上给出清晰警示。",
+  "severity": "should",
+  "source": "California OEHHA",
+  "source_url": "https://oehha.ca.gov/proposition-65",
+  "keywords": [
+   "prop65",
+   "加州",
+   "警示",
+   "化学物质"
+  ],
+  "why_template": "铅、邻苯二甲酸盐常见于涂层与软胶件。"
+ },
+ {
+  "id": "us-carpet-1630",
+  "category": "carpet",
+  "market": "us",
+  "title": "16 CFR 1630 / 1631 地毯燃烧性能",
+  "requirement": "地毯须通过小毯燃烧测试（1630）或大毯燃烧测试（1631），并在标签注明测试方法。",
+  "severity": "must",
+  "source": "CPSC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-D/part-1630",
+  "keywords": [
+   "1630",
+   "1631",
+   "燃烧",
+   "地毯"
+  ],
+  "why_template": "美国对地毯阻燃是硬性门槛，无测试报告无法清关。"
+ },
+ {
+  "id": "us-carpet-tb117",
+  "category": "carpet",
+  "market": "us",
+  "title": "加州 TB 117-2013 阻燃测试",
+  "requirement": "须通过 TB 117-2013 测试并在标签声明不含添加阻燃剂，或说明阻燃处理方式。",
+  "severity": "should",
+  "source": "California BSEAR",
+  "source_url": "https://bhgs.dca.ca.gov/",
+  "keywords": [
+   "tb117",
+   "阻燃",
+   "加州"
+  ],
+  "why_template": "加州销量占比高，标签不合规会被平台下架。"
+ },
+ {
+  "id": "us-ftc-fiber",
+  "category": "carpet",
+  "market": "us",
+  "title": "FTC 纺织品纤维成分与产地标注",
+  "requirement": "须标注纤维含量百分比、原产国、制造商或经销商名称，进口商需保留标签记录。",
+  "severity": "must",
+  "source": "FTC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303",
+  "keywords": [
+   "ftc",
+   "纤维",
+   "标签",
+   "产地"
+  ],
+  "why_template": "地毯属于纺织品，标签错误是最常见的被诉点。",
+  "source_status": "ok",
+  "source_checked_at": "2026-11-06 11:57"
+ },
+ {
+  "id": "uk-ukca",
+  "category": "any",
+  "market": "uk",
+  "title": "UKCA 标识与英国合规声明",
+  "requirement": "受英国法规管辖的产品须加贴 UKCA 标识并出具 UK Declaration of Conformity；部分品类仍接受 CE 过渡。",
+  "severity": "must",
+  "source": "GOV.UK",
+  "source_url": "https://www.gov.uk/guidance/using-the-ukca-marking",
+  "keywords": [
+   "ukca",
+   "英国",
+   "符合性声明"
+  ],
+  "why_template": "脱欧后英国与欧盟合规体系已分离，不能只靠 CE。"
+ },
+ {
+  "id": "uk-reach",
+  "category": "any",
+  "market": "uk",
+  "title": "UK REACH 与 SVHC 通报",
+  "requirement": "与欧盟 REACH 平行的独立体系，SVHC 超过 0.1% 须通报 HSE，并保留供应链信息。",
+  "severity": "must",
+  "source": "HSE",
+  "source_url": "https://www.hse.gov.uk/reach/",
+  "keywords": [
+   "uk reach",
+   "hse",
+   "svhc"
+  ],
+  "why_template": "英国单独注册，欧盟的 SCIP 通报不覆盖英国。"
+ },
+ {
+  "id": "uk-gpsr",
+  "category": "any",
+  "market": "uk",
+  "title": "英国通用产品安全法规 GPSR 2005",
+  "requirement": "消费品须安全，生产者须提供追溯信息与安全说明；2024 年起对网购渠道有额外信息展示要求。",
+  "severity": "should",
+  "source": "GOV.UK",
+  "source_url": "https://www.gov.uk/government/publications/general-product-safety-regulations-2005",
+  "keywords": [
+   "gpsr",
+   "英国",
+   "追溯"
+  ],
+  "why_template": "与欧盟 GPSR 类似但独立适用。"
+ },
+ {
+  "id": "uk-weee",
+  "category": "bike",
+  "market": "uk",
+  "title": "英国 WEEE 与电池回收注册",
+  "requirement": "含电气部件的产品须在英国注册 WEEE 与电池回收计划，并承担回收费用。",
+  "severity": "should",
+  "source": "GOV.UK",
+  "source_url": "https://www.gov.uk/topic/environmental-management/waste",
+  "keywords": [
+   "weee",
+   "电池",
+   "回收",
+   "英国"
+  ],
+  "why_template": "电动车型号适用。",
+  "powered_only": true
+ },
+ {
+  "id": "eu-iso4210-brake",
+  "category": "bike",
+  "market": "eu",
+  "applies_to": "component",
+  "title": "ISO 4210-4 / EN ISO 4210-4 制动性能（部件级）",
+  "requirement": "单独销售的刹车件须按 ISO 4210-4 做制动性能与疲劳测试；整车厂装车后按整车标准整机测试，两条路径不能互相替代。",
+  "severity": "must",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "iso4210",
+   "制动",
+   "刹车",
+   "疲劳",
+   "部件"
+  ],
+  "why_template": "部件单独出口没有整车可测，只能拿部件级报告，采购方基本都会要。"
+ },
+ {
+  "id": "eu-phthalate",
+  "category": "bike",
+  "market": "eu",
+  "applies_to": "component",
+  "title": "REACH 附录 XVII 邻苯二甲酸盐限制",
+  "requirement": "线管、把套、胎垫等软胶件中 DEHP、DBP、BBP、DIBP 合计不得超过 0.1%（重量比），需提供检测报告。",
+  "severity": "should",
+  "source": "ECHA",
+  "source_url": "https://echa.europa.eu/substances-restricted-under-reach",
+  "keywords": [
+   "邻苯",
+   "phthalate",
+   "线管",
+   "软胶",
+   "增塑剂"
+  ],
+  "why_template": "PVC 线管和橡胶件是邻苯超标的高发部位。"
+ },
+ {
+  "id": "us-component-1512",
+  "category": "bike",
+  "market": "us",
+  "applies_to": "component",
+  "title": "美国部件进口的合规责任划分",
+  "requirement": "部件本身不受 16 CFR 1512 直接强制，但进口商与品牌方会要求部件符合整车标准的相应条款；一旦装车后发生事故，责任可能回溯到部件供应商，需保留测试与追溯记录。",
+  "severity": "should",
+  "source": "CPSC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-C/part-1512",
+  "keywords": [
+   "1512",
+   "部件",
+   "责任",
+   "追溯",
+   "进口商"
+  ],
+  "why_template": "美国按整车管，部件供应商靠合同与测试记录自保。"
+ },
+ {
+  "id": "uk-iso4210",
+  "category": "bike",
+  "market": "uk",
+  "applies_to": "component",
+  "title": "BS EN ISO 4210-4 与 UKCA",
+  "requirement": "英国市场对部件的测试口径与欧盟一致，走 BS EN ISO 4210-4；整机需 UKCA 标识，部件按采购合同提供符合性声明。",
+  "severity": "should",
+  "source": "GOV.UK",
+  "source_url": "https://www.gov.uk/guidance/using-the-ukca-marking",
+  "keywords": [
+   "ukca",
+   "iso4210",
+   "英国",
+   "部件"
+  ],
+  "why_template": "脱欧后英国单独一套，但测试标准与欧盟同源。"
+ },
+ {
+  "id": "jp-pse",
+  "category": "any",
+  "market": "jp",
+  "title": "日本 PSE 电气用品安全法",
+  "requirement": "电气用品分特定与非特定两类：特定类需第三方认证机构测试并加贴菱形 PSE，非特定类可自我声明加贴圆形 PSE。进口商须为日本境内责任方。",
+  "severity": "must",
+  "source": "日本经济产业省 METI",
+  "source_url": "https://www.meti.go.jp/english/policy/economy/consumer/pse/index.html",
+  "keywords": [
+   "pse",
+   "电气",
+   "日本",
+   "菱形"
+  ],
+  "why_template": "带电池或带电的产品进入日本基本都落在 PSE 范围内。",
+  "verified": false
+ },
+ {
+  "id": "jp-food-contact",
+  "category": "any",
+  "market": "jp",
+  "title": "日本食品卫生法：接触食品的器具与容器",
+  "requirement": "与食品直接接触的器具、容器须符合食品卫生法规格标准，出口前通常需在日本认可实验室做迁移测试。",
+  "severity": "should",
+  "source": "日本厚生劳动省 MHLW",
+  "source_url": "https://www.mhlw.go.jp/english/topics/importedfoods/index.html",
+  "keywords": [
+   "食品接触",
+   "日本",
+   "迁移",
+   "器具"
+  ],
+  "why_template": "餐具、厨具、儿童用品常被这条卡住。",
+  "verified": false
+ },
+ {
+  "id": "asean-tisi",
+  "category": "any",
+  "market": "asean",
+  "title": "泰国 TISI 强制认证",
+  "requirement": "列入 TIS 强制清单的产品须取得 TISI 许可证并加贴标志，进口前完成工厂审查与样品测试。",
+  "severity": "must",
+  "source": "泰国工业标准协会 TISI",
+  "source_url": "https://www.tisi.go.th/",
+  "keywords": [
+   "tisi",
+   "泰国",
+   "认证"
+  ],
+  "why_template": "东盟各国标准互不承认，泰国要单独办。",
+  "verified": false
+ },
+ {
+  "id": "asean-sni",
+  "category": "any",
+  "market": "asean",
+  "title": "印尼 SNI 与进口许可",
+  "requirement": "强制 SNI 目录内的产品须取得 SNI 证书并使用印尼语标签，进口还需 API-U 进口许可与装运前检验。",
+  "severity": "must",
+  "source": "印尼国家标准局 BSN",
+  "source_url": "https://bsn.go.id/",
+  "keywords": [
+   "sni",
+   "印尼",
+   "进口许可"
+  ],
+  "why_template": "东盟不是单一市场，印尼的门槛与泰国完全不同。",
+  "verified": false
+ },
+ {
+  "id": "me-saber",
+  "category": "any",
+  "market": "me",
+  "title": "沙特 SABER 与 PCoC / SCoC",
+  "requirement": "出口沙特须在 SABER 平台注册：先取得产品符合性证书 PCoC，再按批次取得装运证书 SCoC，两者缺一无法清关。",
+  "severity": "must",
+  "source": "沙特标准计量质量局 SASO",
+  "source_url": "https://saber.sa/",
+  "keywords": [
+   "saber",
+   "沙特",
+   "pcoc",
+   "scoc"
+  ],
+  "why_template": "中东以沙特最严，SABER 是硬门槛。",
+  "verified": false
+ },
+ {
+  "id": "me-gso",
+  "category": "any",
+  "market": "me",
+  "title": "海湾 GSO 符合性标志",
+  "requirement": "海湾七国对部分产品采用统一技术法规，需 GSO 符合性评定；但各国仍有额外注册要求，不能只凭 GCC 标志通关。",
+  "severity": "should",
+  "source": "海湾标准化组织 GSO",
+  "source_url": "https://www.gso.org.sa/",
+  "keywords": [
+   "gso",
+   "海湾",
+   "gcc"
+  ],
+  "why_template": "阿联酋、科威特等国会在 GSO 之外再加本国要求。",
+  "verified": false
+ },
+ {
+  "id": "af-soncap",
+  "category": "any",
+  "market": "af",
+  "title": "尼日利亚 SONCAP",
+  "requirement": "受管产品出口尼日利亚须做 SONCAP：先取得产品证书 PC，再按批次取得 SC，无 SC 无法清关。",
+  "severity": "must",
+  "source": "尼日利亚标准局 SON",
+  "source_url": "https://son.gov.ng/",
+  "keywords": [
+   "soncap",
+   "尼日利亚"
+  ],
+  "why_template": "非洲多数国家走装运前符合性认证，尼日利亚最典型。",
+  "verified": false
+ },
+ {
+  "id": "af-pvoc",
+  "category": "any",
+  "market": "af",
+  "title": "东非 PVoC 装运前符合性认证",
+  "requirement": "肯尼亚、坦桑尼亚、乌干达等实行 PVoC，出口前须由授权机构检验并出具 CoC，到港无证会被退运或罚款。",
+  "severity": "must",
+  "source": "肯尼亚标准局 KEBS",
+  "source_url": "https://www.kebs.org/",
+  "keywords": [
+   "pvoc",
+   "肯尼亚",
+   "coc",
+   "东非"
+  ],
+  "why_template": "PVoC 是到港前必须拿到的文件，事后补不了。",
+  "verified": false
+ },
+ {
+  "id": "jp-cscl",
+  "market": "jp",
+  "title": "日本化审法 CSCL：化学物质审查",
+  "requirement": "进口化学物质及含化学物质的制品前，须确认其是否属于「现有化学物质」清单；新化学物质须事前审查，未列入的物质不得进口。",
+  "severity": "should",
+  "source": "日本经济产业省 METI",
+  "source_url": "https://www.meti.go.jp/policy/chemical_management/english/cscl/",
+  "keywords": [
+   "化审法",
+   "cscl",
+   "化学物质",
+   "日本"
+  ],
+  "why_template": "涂料、胶粘剂、清洗剂类产品最容易被这条拦下。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:41",
+  "source_hash": "73b6c25aceebfb8d"
+ },
+ {
+  "id": "jp-recycling",
+  "market": "jp",
+  "title": "日本容器包装回收法",
+  "requirement": "使用容器包装的企业（特定事業者）须每年向日本容器包装回收协会申报并缴纳再商品化费用，费用按材质与重量计算。",
+  "severity": "should",
+  "source": "日本环境省 MOE",
+  "source_url": "https://www.env.go.jp/recycle/yoki/",
+  "keywords": [
+   "容器包装",
+   "回收",
+   "日本",
+   "再商品化"
+  ],
+  "why_template": "只要发货就有包装，长期做日本市场这笔费用躲不掉。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:41",
+  "source_hash": "60e070e4b2029a39"
+ },
+ {
+  "id": "jp-pl",
+  "market": "jp",
+  "title": "日本制造物责任法 PL 法",
+  "requirement": "产品缺陷造成人身或财产损害，制造者承担无过失责任。实务上要求保留设计、制造、警示相关的技术文件，并在包装上做日文警示。",
+  "severity": "should",
+  "source": "日本消费者厅 CAA",
+  "source_url": "https://www.caa.go.jp/policies/policy/consumer_safety/",
+  "keywords": [
+   "pl法",
+   "制造物责任",
+   "日本",
+   "警示"
+  ],
+  "why_template": "没有日文警示标识，出事后几乎必然被判有过失。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:41",
+  "source_hash": "dcdab46de8175348"
+ },
+ {
+  "id": "jp-psc",
+  "market": "jp",
+  "title": "日本消费生活用制品安全法 PSC",
+  "requirement": "特定品类（如部分婴儿用品、打火机、压力锅、头盔）须加贴 PSC 标志，其中部分需第三方认证，其余为自我声明。",
+  "severity": "must",
+  "source": "日本经济产业省 METI",
+  "source_url": "https://www.meti.go.jp/product_safety/",
+  "keywords": [
+   "psc",
+   "消费生活用制品",
+   "日本",
+   "头盔"
+  ],
+  "why_template": "自行车头盔、儿童用品属于 PSC 范围，容易漏。",
+  "powered_only": false,
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:41",
+  "source_hash": "cdfa4f25f2eac05a"
+ },
+ {
+  "id": "asean-vietnam-cr",
+  "market": "asean",
+  "title": "越南 CR 标志与符合性声明",
+  "requirement": "受管制产品须按越南国家标准做测试，取得符合性证书并加贴 CR 标志，进口时随附符合性声明。",
+  "severity": "must",
+  "source": "越南科技部 MOST",
+  "source_url": "https://www.most.gov.vn/",
+  "keywords": [
+   "越南",
+   "cr",
+   "符合性"
+  ],
+  "why_template": "越南要求本地测试，境外报告未必被接受。",
+  "category": "any",
+  "verified": false,
+  "source_status": "dead",
+  "source_checked_at": "2026-11-05 19:41"
+ },
+ {
+  "id": "asean-malaysia",
+  "market": "asean",
+  "title": "马来西亚 SIRIM 认证与 CoA",
+  "requirement": "受管制产品须取得 SIRIM QAS 颁发的认证与批准证书 CoA，电气类另需能源委员会 ST 注册。",
+  "severity": "must",
+  "source": "SIRIM QAS",
+  "source_url": "https://www.sirim-qas.com.my/",
+  "keywords": [
+   "马来西亚",
+   "sirim",
+   "coa"
+  ],
+  "why_template": "马来西亚对电气与建材类管控较严。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:42",
+  "source_hash": "e1508a4a1b149405"
+ },
+ {
+  "id": "asean-philippines",
+  "market": "asean",
+  "title": "菲律宾 PS 标志与 ICC",
+  "requirement": "受管产品分两类：本地生产的用 PS 标志，进口的用 ICC 清关证书，二者都在 DTI-BPS 体系下。",
+  "severity": "must",
+  "source": "菲律宾贸工部 DTI",
+  "source_url": "https://www.dti.gov.ph/",
+  "keywords": [
+   "菲律宾",
+   "ps",
+   "icc"
+  ],
+  "why_template": "菲律宾按批次发 ICC，每票都要办。",
+  "category": "any",
+  "verified": false,
+  "source_status": "dead",
+  "source_checked_at": "2026-11-05 19:42"
+ },
+ {
+  "id": "asean-rcep",
+  "market": "asean",
+  "title": "RCEP 原产地规则与关税优惠",
+  "requirement": "要享受 RCEP 协定税率，须满足原产地规则并取得原产地证书或原产地声明，否则按最惠国税率征税。",
+  "severity": "info",
+  "source": "RCEP 秘书处",
+  "source_url": "http://rcepsec.org/",
+  "keywords": [
+   "rcep",
+   "原产地",
+   "关税"
+  ],
+  "why_template": "这条不关乎能不能卖，关乎能省多少税。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:42",
+  "source_hash": "138c046bfccce2c0"
+ },
+ {
+  "id": "me-uae",
+  "market": "me",
+  "title": "阿联酋 ECAS 与 EQM",
+  "requirement": "受管产品须通过 ECAS 符合性评定并注册，部分品类还需 EQM 质量标志；证书由 MoIAT 认可机构出具。",
+  "severity": "must",
+  "source": "阿联酋工业与先进技术部 MoIAT",
+  "source_url": "https://moiat.gov.ae/en",
+  "keywords": [
+   "阿联酋",
+   "ecas",
+   "eqm",
+   "迪拜"
+  ],
+  "why_template": "迪拜转口量大，但证书是阿联酋本国的，不认沙特 SABER。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:42",
+  "source_hash": "2765a1c812db9e2b"
+ },
+ {
+  "id": "me-kuwait",
+  "market": "me",
+  "title": "科威特 KUCAS 技术检验",
+  "requirement": "受管产品出口科威特须取得技术检验报告 TIR 与清关证书 TEC，由指定检验机构在装运前完成。",
+  "severity": "must",
+  "source": "科威特工业公共局 PAI",
+  "source_url": "https://www.pai.gov.kw/",
+  "keywords": [
+   "科威特",
+   "kucas",
+   "tir",
+   "tec"
+  ],
+  "why_template": "科威特按批次发证，临到港再办来不及。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:42",
+  "source_hash": "68194f781f13d28c"
+ },
+ {
+  "id": "me-iraq",
+  "market": "me",
+  "title": "伊拉克 ICIGI 符合性认证",
+  "requirement": "出口伊拉克的受管产品须在装运前完成符合性检验并取得 CoC，到港无证会被拒收。",
+  "severity": "should",
+  "source": "伊拉克中央标准化与质量控制组织 COSQC",
+  "source_url": "https://www.cosqc.gov.iq/",
+  "keywords": [
+   "伊拉克",
+   "icigi",
+   "coc"
+  ],
+  "why_template": "伊拉克口岸执行不稳定，前置合规更要留足时间。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:42",
+  "source_hash": "7caf26f877c9fd7c"
+ },
+ {
+  "id": "af-egypt",
+  "market": "af",
+  "title": "埃及 GOEIC 注册与装运前检验",
+  "requirement": "部分产品须先在 GOEIC 完成工厂注册，出口前由授权机构做装运前检验，并出具符合性证书。",
+  "severity": "must",
+  "source": "埃及进出口控制总局 GOEIC",
+  "source_url": "https://www.goeic.gov.eg/",
+  "keywords": [
+   "埃及",
+   "goeic",
+   "注册"
+  ],
+  "why_template": "埃及要求先注册工厂再发货，顺序错了整批卡住。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:43",
+  "source_hash": "bcdac7912e0b85c9"
+ },
+ {
+  "id": "af-southafrica",
+  "market": "af",
+  "title": "南非 NRCS 强制规范",
+  "requirement": "受强制规范管制（如电气、汽车零部件）的产品须取得 NRCS 许可函 LOA，并加贴相应标志。",
+  "severity": "must",
+  "source": "南非国家强制规范监管局 NRCS",
+  "source_url": "https://www.nrcs.org.za/",
+  "keywords": [
+   "南非",
+   "nrcs",
+   "loa"
+  ],
+  "why_template": "南非是非洲少数按本国强制规范执法的市场。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-05 19:44",
+  "source_hash": "d177780cdd2a04cd"
+ },
+ {
+  "id": "af-algeria",
+  "market": "af",
+  "title": "阿尔及利亚符合性认证",
+  "requirement": "受管产品须在装运前取得符合性证书，由授权机构检验后签发，清关时随附。",
+  "severity": "should",
+  "source": "阿尔及利亚标准化协会 IANOR",
+  "source_url": "https://www.ianor.dz/",
+  "keywords": [
+   "阿尔及利亚",
+   "符合性"
+  ],
+  "why_template": "北非三国（埃及、阿尔及利亚、摩洛哥）各自一套，不能互认。",
+  "category": "any",
+  "verified": false,
+  "source_status": "ok",
+  "source_checked_at": "2026-11-06 11:57"
+ },
+ {
+  "id": "eu-lvd",
+  "category": "appliance",
+  "market": "eu",
+  "title": "欧盟低电压指令 LVD 2014/35/EU",
+  "requirement": "交流 50—1000V 的电气设备适用。电热毯属发热器具，按 EN 60335-1 与 EN 60335-2-17 做安全测试并出符合性声明。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2014/35/oj",
+  "keywords": [
+   "lvd",
+   "低电压",
+   "60335",
+   "电热毯"
+  ],
+  "why_template": "电热毯是典型 LVD 产品，没有 EN 60335 报告出不了 CE。",
+  "verified": false
+ },
+ {
+  "id": "eu-emc-appliance",
+  "category": "appliance",
+  "market": "eu",
+  "title": "欧盟 EMC 指令 2014/30/EU",
+  "requirement": "含电子控制（温控器、定时器）的电器须满足电磁兼容要求，出具 EMC 测试报告并纳入技术文件。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2014/30/oj",
+  "keywords": [
+   "emc",
+   "电磁兼容",
+   "温控"
+  ],
+  "why_template": "带温控电路就要测 EMC，与发热安全是两套测试。",
+  "verified": false
+ },
+ {
+  "id": "eu-erp-standby",
+  "category": "appliance",
+  "market": "eu",
+  "title": "欧盟 ErP 待机与关机功耗",
+  "requirement": "待机功耗不得超过 0.5W（带显示 1W），关机不得超过 0.3W；需在技术文件与说明书标注。",
+  "severity": "should",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2023/826/oj",
+  "keywords": [
+   "erp",
+   "待机",
+   "功耗",
+   "能效"
+  ],
+  "why_template": "小家电常因待机功耗超标被下架。",
+  "verified": false
+ },
+ {
+  "id": "us-ul964",
+  "category": "appliance",
+  "market": "us",
+  "title": "UL 964 电热毯安全标准",
+  "requirement": "电热毯与加热垫按 UL 964 做安全认证；亚马逊美国站与主流零售商均要求 UL 或 ETL 证书。",
+  "severity": "must",
+  "source": "UL Standards",
+  "source_url": "https://www.ul.com/",
+  "keywords": [
+   "ul964",
+   "电热毯",
+   "加热垫"
+  ],
+  "why_template": "没有 UL/ETL，美国渠道基本进不去。",
+  "verified": false
+ },
+ {
+  "id": "us-fcc-appliance",
+  "category": "appliance",
+  "market": "us",
+  "title": "FCC Part 15 无意辐射体",
+  "requirement": "含微控制器、无线或定时电路的电器须满足 FCC Part 15 Subpart B，保留测试报告。",
+  "severity": "should",
+  "source": "FCC",
+  "source_url": "https://www.fcc.gov/general/radio-frequency-device-certification",
+  "keywords": [
+   "fcc",
+   "part15",
+   "电器"
+  ],
+  "why_template": "带电子控制就要过 FCC，纯机械式可豁免。",
+  "verified": false
+ },
+ {
+  "id": "jp-pse-blanket",
+  "category": "appliance",
+  "market": "jp",
+  "title": "日本电热毯与 PSE",
+  "requirement": "电气毛毯等发热电器多属「特定电气用品」，须第三方认证并加贴菱形 PSE，同时需日本境内责任方备案。具体品目以 METI 清单为准。",
+  "severity": "must",
+  "source": "日本经济产业省 METI",
+  "source_url": "https://www.meti.go.jp/policy/consumer/seian/denan/",
+  "keywords": [
+   "pse",
+   "电热毯",
+   "电气毛毯",
+   "日本"
+  ],
+  "why_template": "圆形与菱形是两套流程，选错要重做。",
+  "verified": false
+ },
+ {
+  "id": "eu-textile-label",
+  "category": "apparel",
+  "market": "eu",
+  "title": "欧盟纺织品名称与标签法规 1007/2011",
+  "requirement": "须标注纤维名称与百分比、原产国；纯纺含量允许 3% 公差，混纺须按降序标注。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/1007/2011/oj",
+  "keywords": [
+   "纤维",
+   "标签",
+   "1007",
+   "纺织"
+  ],
+  "why_template": "标签成分与实际不符是欧盟通报的高频项。",
+  "verified": false
+ },
+ {
+  "id": "eu-apparel-azo",
+  "category": "apparel",
+  "market": "eu",
+  "title": "REACH 附录 XVII 偶氮染料",
+  "requirement": "与皮肤接触的纺织与皮革制品，禁用 22 种可分解致癌芳香胺偶氮染料，限量 30mg/kg。",
+  "severity": "must",
+  "source": "ECHA",
+  "source_url": "https://echa.europa.eu/substances-restricted-under-reach",
+  "keywords": [
+   "偶氮",
+   "azo",
+   "纺织",
+   "染料"
+  ],
+  "why_template": "深色布料风险最高，抽检必查。",
+  "verified": false
+ },
+ {
+  "id": "eu-formaldehyde",
+  "category": "apparel",
+  "market": "eu",
+  "title": "REACH 甲醛限制",
+  "requirement": "直接接触皮肤的产品甲醛释放量不得超过 75mg/kg（2023 年起收紧为限值体系），需提供检测报告。",
+  "severity": "should",
+  "source": "ECHA",
+  "source_url": "https://echa.europa.eu/substances-restricted-under-reach",
+  "keywords": [
+   "甲醛",
+   "formaldehyde",
+   "纺织"
+  ],
+  "why_template": "免烫整理与印花工艺最容易超标。",
+  "verified": false
+ },
+ {
+  "id": "us-ftc-303",
+  "category": "apparel",
+  "market": "us",
+  "title": "美国 FTC 16 CFR 303 纤维成分与产地",
+  "requirement": "须标注纤维通用名称与百分比、原产国、制造商或经销商；进口商需保留标签依据。",
+  "severity": "must",
+  "source": "FTC",
+  "source_url": "https://www.ftc.gov/business-guidance/resources/threading-your-way-through-labeling-requirements-under-textile-wool-acts",
+  "keywords": [
+   "ftc",
+   "纤维",
+   "303",
+   "标签"
+  ],
+  "why_template": "美国对标签错误执法很严，罚款按件计。",
+  "verified": false
+ },
+ {
+  "id": "us-1610",
+  "category": "apparel",
+  "market": "us",
+  "title": "16 CFR 1610 服装纺织品可燃性",
+  "requirement": "服装面料须通过 45 度倾斜燃烧测试，按燃烧速度分为三级，Class 3 不得用于服装。",
+  "severity": "must",
+  "source": "CPSC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-D/part-1610",
+  "keywords": [
+   "1610",
+   "阻燃",
+   "服装"
+  ],
+  "why_template": "薄纱、绒面类最容易判为 Class 3。",
+  "verified": false
+ },
+ {
+  "id": "us-children-sleepwear",
+  "category": "apparel",
+  "market": "us",
+  "title": "儿童睡衣阻燃 16 CFR 1615/1616",
+  "requirement": "儿童睡衣须满足更严的阻燃要求并通过第三方检测，或采用紧身设计豁免；须出具 CPC 证书。",
+  "severity": "should",
+  "source": "CPSC",
+  "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-D/part-1615",
+  "keywords": [
+   "1615",
+   "1616",
+   "儿童",
+   "睡衣"
+  ],
+  "why_template": "童装一旦被认定为睡衣或儿童用品，要求成倍上升。",
+  "verified": false
+ },
+ {
+  "id": "jp-household-goods",
+  "category": "apparel",
+  "market": "jp",
+  "title": "日本家庭用品有害物质法",
+  "requirement": "婴幼儿用品与直接接触皮肤的家纺，甲醛限值更严（婴幼儿 16mg/kg 以下），需符合日本官报规定的试验方法。",
+  "severity": "must",
+  "source": "日本厚生劳动省 MHLW",
+  "source_url": "https://www.mhlw.go.jp/",
+  "keywords": [
+   "甲醛",
+   "家庭用品",
+   "日本",
+   "婴幼儿"
+  ],
+  "why_template": "日本对婴幼儿纺织品的甲醛限值比欧盟更严。",
+  "verified": false
+ },
+ {
+  "id": "eu-toy-safety",
+  "category": "toy",
+  "market": "eu",
+  "title": "欧盟玩具安全指令 2009/48/EC",
+  "requirement": "玩具须符合 EN 71-1（机械物理）、EN 71-2（易燃性）、EN 71-3（迁移元素），加贴 CE 并保留技术文件与 EU 责任人。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2009/48/oj",
+  "keywords": [
+   "玩具",
+   "en71",
+   "toy"
+  ],
+  "why_template": "玩具是欧盟抽查最频繁的品类，EN 71-3 重金属是必查项。",
+  "verified": false
+ },
+ {
+  "id": "eu-toy-warning",
+  "category": "toy",
+  "market": "eu",
+  "title": "玩具年龄警示与小零件",
+  "requirement": "36 个月以下儿童玩具不得含可脱落小部件；须标注年龄警示与「不适合 3 岁以下」等提示，语言须为销售国官方语言。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2009/48/oj",
+  "keywords": [
+   "小零件",
+   "年龄",
+   "警示",
+   "玩具"
+  ],
+  "why_template": "警示语语言不对，整批货可能被判不合规。",
+  "verified": false
+ },
+ {
+  "id": "us-toy-astm",
+  "category": "toy",
+  "market": "us",
+  "title": "美国玩具 ASTM F963 与 CPC",
+  "requirement": "按 16 CFR 1250（ASTM F963）做第三方检测，出具儿童产品证书 CPC，并加贴追溯标签。",
+  "severity": "must",
+  "source": "CPSC",
+  "source_url": "https://www.cpsc.gov/Business--Manufacturing",
+  "keywords": [
+   "astm",
+   "f963",
+   "cpc",
+   "玩具"
+  ],
+  "why_template": "没有 CPC，亚马逊美国站玩具类目直接下架。",
+  "verified": false
+ },
+ {
+  "id": "jp-toy-st",
+  "category": "toy",
+  "market": "jp",
+  "title": "日本玩具 ST 标志与食品卫生法",
+  "requirement": "ST 标志为行业自愿认证，但主流渠道普遍要求；入口玩具（可能被幼儿放入口中）另需符合食品卫生法。",
+  "severity": "should",
+  "source": "日本玩具协会",
+  "source_url": "https://www.toys.or.jp/",
+  "keywords": [
+   "st",
+   "玩具",
+   "日本"
+  ],
+  "why_template": "日本渠道看 ST，不看你有没有 CE。",
+  "verified": false
+ },
+ {
+  "id": "eu-lighting-erp",
+  "category": "lighting",
+  "market": "eu",
+  "title": "欧盟光源能效与能效标签",
+  "requirement": "光源须符合 (EU) 2019/2020 生态设计要求，并按 (EU) 2019/2015 加贴能效标签，注册 EPREL 数据库后方可销售。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2019/2020/oj",
+  "keywords": [
+   "erp",
+   "光源",
+   "能效标签",
+   "eprel"
+  ],
+  "why_template": "没在 EPREL 注册，平台上不了架。",
+  "verified": false
+ },
+ {
+  "id": "eu-lighting-lvd",
+  "category": "lighting",
+  "market": "eu",
+  "title": "灯具 LVD 与 EMC",
+  "requirement": "灯具按 EN 60598 系列做安全测试，含驱动电源的另需 EMC 测试，出具 CE 符合性声明。",
+  "severity": "must",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "60598",
+   "灯具",
+   "lvd",
+   "emc"
+  ],
+  "why_template": "驱动电源是最常见的失效点。",
+  "verified": false
+ },
+ {
+  "id": "us-lighting",
+  "category": "lighting",
+  "market": "us",
+  "title": "美国灯具 UL 1598 与 DOE 能效",
+  "requirement": "灯具按 UL 1598 认证，含电子驱动需过 FCC Part 15；部分光源受 DOE 能效法规约束。",
+  "severity": "must",
+  "source": "UL Standards",
+  "source_url": "https://www.ul.com/",
+  "keywords": [
+   "ul1598",
+   "灯具",
+   "doe"
+  ],
+  "why_template": "北美渠道只认 UL 或 ETL。",
+  "verified": false
+ },
+ {
+  "id": "eu-furniture-en12521",
+  "category": "furniture",
+  "market": "eu",
+  "title": "欧盟家具强度与稳定性 EN 12521",
+  "requirement": "桌椅类按 EN 12521 做强度、耐久与稳定性测试；软体家具另需符合阻燃与甲醛释放要求。",
+  "severity": "should",
+  "source": "CEN",
+  "source_url": "https://standards.cencenelec.eu/",
+  "keywords": [
+   "en12521",
+   "家具",
+   "稳定性"
+  ],
+  "why_template": "采购方通常把 EN 12521 报告写进合同。",
+  "verified": false
+ },
+ {
+  "id": "us-sturdy",
+  "category": "furniture",
+  "market": "us",
+  "title": "美国 STURDY Act 与 ASTM F2057",
+  "requirement": "衣物储藏类家具（衣柜、斗柜）须符合 ASTM F2057 防倾倒要求并附防倾倒装置，2023 年起强制。",
+  "severity": "must",
+  "source": "CPSC",
+  "source_url": "https://www.cpsc.gov/Business--Manufacturing",
+  "keywords": [
+   "sturdy",
+   "f2057",
+   "倾倒",
+   "家具"
+  ],
+  "why_template": "儿童因斗柜倾倒致死是美国重点召回品类。",
+  "verified": false
+ },
+ {
+  "id": "eu-fcm",
+  "category": "foodware",
+  "market": "eu",
+  "title": "欧盟食品接触材料 1935/2004 与 (EU) 10/2011",
+  "requirement": "食品接触材料须符合框架法规 1935/2004 与 GMP 法规 2023/2006；塑料类另需按 (EU) 10/2011 做迁移测试并出具符合性声明 DoC。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/10/2011/oj",
+  "keywords": [
+   "食品接触",
+   "迁移",
+   "1935",
+   "10/2011"
+  ],
+  "why_template": "迁移测试按食品模拟物做，报告不能跨材质复用。",
+  "verified": false
+ },
+ {
+  "id": "us-fda-fcm",
+  "category": "foodware",
+  "market": "us",
+  "title": "美国 FDA 食品接触物质合规",
+  "requirement": "食品接触材料须符合 21 CFR 相应条款，或取得食品接触通知 FCN；须保留成分与萃取测试资料备查。",
+  "severity": "must",
+  "source": "FDA",
+  "source_url": "https://www.fda.gov/food/food-ingredients-packaging",
+  "keywords": [
+   "fda",
+   "食品接触",
+   "fcn"
+  ],
+  "why_template": "美国按物质管理，不是按产品发证。",
+  "verified": false
+ },
+ {
+  "id": "jp-fcm",
+  "category": "foodware",
+  "market": "jp",
+  "title": "日本食品卫生法正列表制度",
+  "requirement": "2020 年起日本对食品接触材料实行正面清单，只有列入清单的物质才能用于接触食品的部位。",
+  "severity": "must",
+  "source": "日本厚生劳动省 MHLW",
+  "source_url": "https://www.mhlw.go.jp/",
+  "keywords": [
+   "正面清单",
+   "食品接触",
+   "日本"
+  ],
+  "why_template": "清单外的助剂一律不能用，配方要重审。",
+  "verified": false
+ },
+ {
+  "id": "eu-cosmetics",
+  "category": "cosmetics",
+  "market": "eu",
+  "title": "欧盟化妆品法规 1223/2009",
+  "requirement": "须指定欧盟责任人，在 CPNP 系统通报，保存产品信息文件 PIF，并做安全评估报告 CPSR；成分须符合附录禁限用清单。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/1223/2009/oj",
+  "keywords": [
+   "化妆品",
+   "cpnp",
+   "pif",
+   "责任人"
+  ],
+  "why_template": "没有欧盟责任人，产品根本不能上架。",
+  "verified": false
+ },
+ {
+  "id": "us-cosmetics-mocra",
+  "category": "cosmetics",
+  "market": "us",
+  "title": "美国 MoCRA 设施注册与产品列名",
+  "requirement": "2023 年起化妆品企业须向 FDA 做设施注册与产品列名，并具备充分的安全证明；严重不良事件须上报。",
+  "severity": "must",
+  "source": "FDA",
+  "source_url": "https://www.fda.gov/cosmetics",
+  "keywords": [
+   "mocra",
+   "化妆品",
+   "注册",
+   "列名"
+  ],
+  "why_template": "MoCRA 是新规，很多代工厂还没跟上。",
+  "verified": false
+ },
+ {
+  "id": "eu-auto-emark",
+  "category": "auto",
+  "market": "eu",
+  "title": "欧盟汽车零部件 E-mark 与 UNECE 法规",
+  "requirement": "受管制零部件（灯具、制动、后视镜、安全带等）须按对应 UNECE 法规取得 E-mark 认证，由成员国交通主管部门签发。",
+  "severity": "must",
+  "source": "UNECE",
+  "source_url": "https://unece.org/transport/vehicle-regulations",
+  "keywords": [
+   "emark",
+   "unece",
+   "汽配",
+   "灯具"
+  ],
+  "why_template": "没有 E-mark，欧盟整车厂与售后渠道都不收。",
+  "verified": false
+ },
+ {
+  "id": "eu-elv",
+  "category": "auto",
+  "market": "eu",
+  "title": "欧盟报废车辆指令 2000/53/EC 限用物质",
+  "requirement": "禁止使用铅、汞、镉、六价铬（豁免除外），材料须可回收并做拆解信息说明。",
+  "severity": "should",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2000/53/oj",
+  "keywords": [
+   "elv",
+   "汽配",
+   "限用物质"
+  ],
+  "why_template": "与 RoHS 类似但适用范围不同，别混用报告。",
+  "verified": false
+ },
+ {
+  "id": "us-auto-fmvss",
+  "category": "auto",
+  "market": "us",
+  "title": "美国 FMVSS 与 DOT 标识",
+  "requirement": "受管零部件须符合对应 FMVSS 标准，灯具等还须加贴 DOT 标识并做自我认证，保留测试记录。",
+  "severity": "must",
+  "source": "NHTSA",
+  "source_url": "https://www.nhtsa.gov/laws-regulations/fmvss",
+  "keywords": [
+   "fmvss",
+   "dot",
+   "汽配"
+  ],
+  "why_template": "DOT 是自我认证，但抽查不合格要召回。",
+  "verified": false
+ },
+ {
+  "id": "eu-mdr",
+  "category": "medical",
+  "market": "eu",
+  "title": "欧盟医疗器械法规 MDR 2017/745",
+  "requirement": "按风险分为 I / IIa / IIb / III 类，除 I 类低风险外均需公告机构介入；须建立技术文件、临床评价、UDI 与上市后监督体系。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj",
+  "keywords": [
+   "mdr",
+   "医疗器械",
+   "公告机构",
+   "udi"
+  ],
+  "why_template": "周期通常以年计，不能按普通消费品规划。",
+  "verified": false
+ },
+ {
+  "id": "us-fda-510k",
+  "category": "medical",
+  "market": "us",
+  "title": "美国 FDA 510(k) 或 De Novo",
+  "requirement": "多数 II 类器械须提交 510(k) 取得 clearance；无对比器械的走 De Novo；企业另需建立 QMSR 质量体系并做设施注册。",
+  "severity": "must",
+  "source": "FDA",
+  "source_url": "https://www.fda.gov/medical-devices",
+  "keywords": [
+   "510k",
+   "fda",
+   "医疗器械",
+   "qmsr"
+  ],
+  "why_template": "没有 clearance，连展会展出都可能被警告。",
+  "verified": false
+ },
+ {
+  "id": "eu-iso13485",
+  "category": "medical",
+  "market": "eu",
+  "title": "ISO 13485 医疗器械质量管理体系",
+  "requirement": "MDR 要求制造商建立并维持质量管理体系，实务上按 ISO 13485 建立并接受公告机构审核，覆盖设计、生产、追溯与投诉处理。",
+  "severity": "must",
+  "source": "ISO",
+  "source_url": "https://www.iso.org/standard/59752.html",
+  "keywords": [
+   "13485",
+   "质量体系",
+   "医疗器械"
+  ],
+  "why_template": "体系审核不过，产品认证无从谈起。",
+  "verified": false
+ },
+ {
+  "id": "eu-iso10993",
+  "category": "medical",
+  "market": "eu",
+  "title": "ISO 10993 生物相容性评价",
+  "requirement": "与人体接触的器械须按 ISO 10993 系列做生物相容性评价，接触部位与时长决定测试项目组合。",
+  "severity": "must",
+  "source": "ISO",
+  "source_url": "https://www.iso.org/standard/68936.html",
+  "keywords": [
+   "10993",
+   "生物相容性",
+   "医疗器械"
+  ],
+  "why_template": "接触时间和部位不同，测试项完全不同。",
+  "verified": false
+ },
+ {
+  "id": "eu-iec62304",
+  "category": "medical",
+  "market": "eu",
+  "title": "IEC 62304 医疗器械软件生命周期",
+  "requirement": "含软件的器械须按 IEC 62304 建立软件生命周期过程，按安全等级 A/B/C 分级并保留开发与验证记录。",
+  "severity": "should",
+  "source": "IEC",
+  "source_url": "https://webstore.iec.ch/",
+  "keywords": [
+   "62304",
+   "软件",
+   "医疗器械"
+  ],
+  "why_template": "带 App 或固件的器械都会被问到这一条。",
+  "verified": false
+ },
+ {
+  "id": "us-qmsr",
+  "category": "medical",
+  "market": "us",
+  "title": "美国 QMSR 质量体系法规",
+  "requirement": "FDA 已用 QMSR 取代原 QSR，与 ISO 13485 对齐并于 2026 年生效；企业须同步更新体系文件与内审计划。",
+  "severity": "must",
+  "source": "FDA",
+  "source_url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr",
+  "keywords": [
+   "qmsr",
+   "qsr",
+   "医疗器械",
+   "质量体系"
+  ],
+  "why_template": "旧版 QSR 文件不迁移，2026 年后就是不合规。",
+  "verified": false
+ },
+ {
+  "id": "eu-iso22716",
+  "category": "cosmetics",
+  "market": "eu",
+  "title": "ISO 22716 化妆品良好生产规范",
+  "requirement": "化妆品须按 ISO 22716（或等效 GMP）生产，覆盖厂房、设备、原料、批次记录与召回；欧盟责任人需能调取这些记录。",
+  "severity": "must",
+  "source": "ISO",
+  "source_url": "https://www.iso.org/standard/36437.html",
+  "keywords": [
+   "22716",
+   "gmp",
+   "化妆品"
+  ],
+  "why_template": "代工厂没有 GMP 记录，品牌方无法备案。",
+  "verified": false
+ },
+ {
+  "id": "eu-cosmetics-annex",
+  "category": "cosmetics",
+  "market": "eu",
+  "title": "化妆品禁限用成分与着色剂清单",
+  "requirement": "成分须符合 1223/2009 附录 II（禁用）、III（限用）、IV（着色剂）、VI（防腐剂）；限用成分浓度与警示语须逐条对应。",
+  "severity": "must",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/1223/2009/oj",
+  "keywords": [
+   "附录",
+   "禁用",
+   "限用",
+   "着色剂"
+  ],
+  "why_template": "清单每年修订，配方要跟着改。",
+  "verified": false
+ },
+ {
+  "id": "us-cosmetics-color",
+  "category": "cosmetics",
+  "market": "us",
+  "title": "美国化妆品色素批次认证",
+  "requirement": "使用煤焦油类色素的化妆品，色素批次须经 FDA 认证并标注认证编号，未认证色素不得使用。",
+  "severity": "should",
+  "source": "FDA",
+  "source_url": "https://www.fda.gov/cosmetics/cosmetic-ingredient-names/color-additives-permitted-food-drugs-and-cosmetics",
+  "keywords": [
+   "色素",
+   "color additive",
+   "fda",
+   "化妆品"
+  ],
+  "why_template": "口红、眼影最容易踩这条。",
+  "verified": false
+ },
+ {
+  "id": "eu-fcm-gmp",
+  "category": "foodware",
+  "market": "eu",
+  "title": "食品接触材料 GMP 法规 2023/2006",
+  "requirement": "食品接触材料生产须建立良好生产规范，确保印刷油墨层不直接接触食品面，并保留批次可追溯记录。",
+  "severity": "should",
+  "source": "EUR-Lex",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2023/2006/oj",
+  "keywords": [
+   "gmp",
+   "食品接触",
+   "油墨"
+  ],
+  "why_template": "印刷面直接接触食品是最常见的扣货原因。",
+  "verified": false
+ }
+]

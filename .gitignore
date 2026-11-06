@@ -1,0 +1,8 @@
+.env
+.env.*
+data/byok.json
+__pycache__/
+*.pyc
+data/sessions/
+data/profiles/
+.DS_Store

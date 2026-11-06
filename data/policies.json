@@ -1,0 +1,383 @@
+[
+ {
+  "id": "tj-waimao",
+  "name": "中小企业开拓国际市场项目资金",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet",
+   "hardware"
+  ],
+  "condition": "在天津市注册、有进出口经营权的中小企业，参加境外展会、开展国际认证、建设海外仓等实际发生费用。",
+  "support": "按实际发生费用的一定比例给予支持，单家企业有年度上限，具体比例以当年申报通知为准。",
+  "deadline": "以当年申报通知为准",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/tjsswjzz/zmhd/jcyjzj/202608/t20260826_7358641.html",
+  "link_checked": true,
+  "note": "链接为2026年申报指南的征求意见稿，正式稿发布后需替换",
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "aa7902182ad5c52d",
+  "materials": {
+   "items": [
+    {
+     "name": "企业营业执照",
+     "owner": "企业",
+     "days": "1—3 天",
+     "note": "需包含进出口经营权"
+    },
+    {
+     "name": "境外展会邀请函或参展合同",
+     "owner": "企业",
+     "days": "1 周",
+     "note": "证明实际参展的文件"
+    },
+    {
+     "name": "展会费用支付凭证",
+     "owner": "企业",
+     "days": "1—3 天",
+     "note": "发票、银行转账记录等"
+    },
+    {
+     "name": "国际认证证书或认证合同",
+     "owner": "企业",
+     "days": "1—2 周",
+     "note": "如适用，证明开展国际认证"
+    },
+    {
+     "name": "海外仓建设合同或租赁协议",
+     "owner": "企业",
+     "days": "1 周",
+     "note": "如适用，证明海外仓建设"
+    },
+    {
+     "name": "申报通知",
+     "owner": "天津市商务局",
+     "days": "向主管部门确认",
+     "note": "获取当年申报的具体要求和比例"
+    }
+   ],
+   "first_step": "关注天津市商务局发布的申报通知，了解当年具体申报时间和支持比例",
+   "caution": "实际发生的费用必须有完整凭证，且需在申报通知规定的截止时间前提交"
+  }
+ },
+ {
+  "id": "tj-kjds",
+  "name": "跨境电子商务综合试验区支持政策",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet",
+   "hardware"
+  ],
+  "condition": "在天津跨境电商综试区注册，开展 9610/9710/9810 等模式出口业务的企业。",
+  "support": "对平台建设、物流仓储、通关服务等环节给予支持，具体标准按年度细则执行。",
+  "deadline": "按年度细则，通常上半年申报",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/tjsswjzz/zmhd/jcyjzj/202503/W020250321614909954133.pdf",
+  "link_checked": true,
+  "note": "链接为2025年综试区建设项目申报指南 PDF",
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "6711986bb4ca6952"
+ },
+ {
+  "id": "tj-zjtx",
+  "name": "专精特新中小企业培育",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike"
+  ],
+  "condition": "连续经营 3 年以上、上年度研发费用占比达标、主导产品在细分市场占有率靠前的中小企业。",
+  "support": "认定后给予一次性奖励，并在融资、用地、人才等方面优先支持。",
+  "deadline": "每年分批，通常 4—6 月",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://gyxxh.tj.gov.cn/ZWGK4147/ZCWJ6355/wjwj/202609/t20260909_7370472.html",
+  "link_checked": true,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "20973ab2d20a1a12",
+  "ignored_at": "2026-11-05 02:39"
+ },
+ {
+  "id": "tj-gxjs",
+  "name": "高新技术企业认定",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike",
+   "carpet"
+  ],
+  "condition": "成立满一年，拥有核心知识产权，研发费用占比与高新技术产品收入占比达到规定比例。",
+  "support": "企业所得税减按 15% 征收；各区另有一次性奖励。",
+  "deadline": "每年 5—8 月分批",
+  "source": "天津市科技局",
+  "source_url": "https://kxjs.tj.gov.cn/ZWGK4143/TZGG2079/202606/t20260623_7322317.html",
+  "link_checked": true,
+  "note": "链接为市科技局通知公告页，需在页内找到高企认定那一条",
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "02235363c1a5f3f4"
+ },
+ {
+  "id": "tj-zhizao",
+  "name": "制造业高质量发展专项资金",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike"
+  ],
+  "condition": "开展智能化改造、绿色制造、工业互联网应用等项目，并完成备案的制造业企业。",
+  "support": "按设备投资额或项目投入的一定比例给予补助，需项目验收。",
+  "deadline": "按年度项目申报指南",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://gyxxh.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "c35584889dbdb824",
+  "source_changed_at": "2026-11-05 18:36"
+ },
+ {
+  "id": "tj-xinyong",
+  "name": "出口信用保险保费补贴",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet",
+   "hardware"
+  ],
+  "condition": "投保短期出口信用保险并实际缴纳保费的小微出口企业。",
+  "support": "对保费给予一定比例补贴，小微企业通常可享受更高比例。",
+  "deadline": "常年受理，按季度结算",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "2ee1cc7c9ea83188"
+ },
+ {
+  "id": "tj-haiwaicang",
+  "name": "海外仓建设与使用支持",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet",
+   "hardware"
+  ],
+  "condition": "自建或使用天津市认定的公共海外仓，并有实际出口业务数据。",
+  "support": "对建仓投入或仓储服务费给予支持，需提供物流与订单凭证。",
+  "deadline": "以当年通知为准",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "2ee1cc7c9ea83188"
+ },
+ {
+  "id": "tj-zhanhui",
+  "name": "境内外展会参展补贴",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet",
+   "hardware"
+  ],
+  "condition": "参加天津市商务局组织的重点展会目录内展会，并完成展位实际使用。",
+  "support": "按展位费的一定比例补贴，单个展会设上限。",
+  "deadline": "展前备案，展后申报",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/tjsswjzz/zwgk/zcfg_48995/swjwj/202606/t20260618_7320709.html",
+  "link_checked": true,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "d8e1548abca4bff7"
+ },
+ {
+  "id": "tj-shoutao",
+  "name": "首台（套）重大技术装备",
+  "region": "天津",
+  "categories": [
+   "hardware"
+  ],
+  "condition": "自主研发的首台套装备，具有自主知识产权并通过第三方检测。",
+  "support": "给予首台套保险补偿或一次性奖励。",
+  "deadline": "按年度申报指南",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://gyxxh.tj.gov.cn/ZWGK4147/ZCWJ6355/gjjwj/202606/t20260625_7324046.html",
+  "link_checked": true,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "7f5d5b889043f249"
+ },
+ {
+  "id": "tj-jishuzhongxin",
+  "name": "企业技术中心认定",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike",
+   "carpet"
+  ],
+  "condition": "有独立研发机构、研发投入与人员达到规定标准，且已运行一年以上。",
+  "support": "认定后给予资金支持，并优先推荐申报国家级中心。",
+  "deadline": "每年一次，通常下半年",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://www.tjftz.gov.cn/contents/7237/379893.html",
+  "link_checked": true,
+  "note": "发布于天津港保税区，正文需在浏览器中确认",
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "e4c3ad3c52305ee5"
+ },
+ {
+  "id": "tj-dengling",
+  "name": "瞪羚企业培育",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike",
+   "carpet"
+  ],
+  "condition": "成立时间较短、营收或研发投入增速达到规定标准的科技型企业。",
+  "support": "给予研发补助与贷款贴息，并在政府采购中优先。",
+  "deadline": "每年一批，通常三季度",
+  "source": "天津市科技局",
+  "source_url": "https://kxjs.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "542aa264477e168c",
+  "source_changed_at": "2026-11-05 12:13"
+ },
+ {
+  "id": "tj-pinpai",
+  "name": "自主品牌出口支持",
+  "region": "天津",
+  "categories": [
+   "bike",
+   "carpet"
+  ],
+  "condition": "以自有品牌出口，完成境外商标注册并有实际出口额。",
+  "support": "对商标注册费、品牌推广费给予一定比例支持。",
+  "deadline": "以当年通知为准",
+  "source": "天津市商务局",
+  "source_url": "https://shangwuju.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "2ee1cc7c9ea83188"
+ },
+ {
+  "id": "tj-zhuanli",
+  "name": "专利资助与知识产权贯标",
+  "region": "天津",
+  "categories": [
+   "any"
+  ],
+  "condition": "获得发明专利授权，或通过知识产权管理规范贯标认证。",
+  "support": "按件资助专利费用；贯标认证给予一次性奖励。",
+  "deadline": "常年受理，按季度审核",
+  "source": "天津市知识产权局",
+  "source_url": "https://zscq.tj.gov.cn/zwhd/wdk/zcwd/202411/t20241126_6789812.html",
+  "link_checked": true,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "3f434aaa5194a06b"
+ },
+ {
+  "id": "tj-shuzihua",
+  "name": "中小企业数字化转型试点",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "bike",
+   "carpet"
+  ],
+  "condition": "纳入数字化转型试点名单的中小企业，完成上云或数字化改造项目。",
+  "support": "对改造投入给予补贴，通常要求企业配套投入。",
+  "deadline": "按试点批次申报",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://gyxxh.tj.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "c35584889dbdb824",
+  "source_changed_at": "2026-11-05 18:36"
+ },
+ {
+  "id": "tj-lvse",
+  "name": "绿色工厂与绿色供应链",
+  "region": "天津",
+  "categories": [
+   "hardware",
+   "carpet"
+  ],
+  "condition": "能耗、排放、资源利用等指标达到绿色工厂评价要求。",
+  "support": "认定后给予奖励，并在能耗指标、绿色金融方面优先。",
+  "deadline": "每年一次，通常二季度",
+  "source": "天津市工业和信息化局",
+  "source_url": "https://gyxxh.tj.gov.cn/ZWGK4147/ZCWJ6355/gjjwj/202609/t20260929_7385136.html",
+  "link_checked": true,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "482a5353e1291f2e"
+ },
+ {
+  "id": "tj-rencai",
+  "name": "产业人才引进与培训补贴",
+  "region": "天津",
+  "categories": [
+   "any"
+  ],
+  "condition": "引进符合目录的高层次人才，或组织职工参加职业技能培训并取得证书。",
+  "support": "给予人才安家补贴或培训补贴，按人头计算。",
+  "deadline": "常年受理",
+  "source": "天津市人力资源和社会保障局",
+  "source_url": "https://hrss.tj.gov.cn/zhengwugongkai/zhengcezhinan/zxwjnew/202601/t20260108_7218350.html",
+  "link_checked": true,
+  "note": "链接为2025年度引进高技能人才项目申报通知，与通用人才补贴口径可能不同",
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "4290833912bfab0b"
+ },
+ {
+  "id": "tj-yanfa",
+  "name": "研发费用加计扣除（税收类）",
+  "region": "天津",
+  "categories": [
+   "any"
+  ],
+  "condition": "开展研发活动并单独归集研发费用，无论是否盈利均可享受。",
+  "support": "按研发费用的一定比例在税前加计扣除，属于税收优惠而非补贴。",
+  "deadline": "随企业所得税汇算清缴，次年 5 月底前",
+  "source": "国家税务总局",
+  "source_url": "https://www.chinatax.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "cfb3b51abbc65119",
+  "source_changed_at": "2026-11-05 18:36"
+ },
+ {
+  "id": "tj-yuanqu",
+  "name": "园区产业扶持与租金补贴",
+  "region": "天津",
+  "categories": [
+   "any"
+  ],
+  "condition": "入驻滨海新区、武清、静海等产业园区并签订投资协议的企业。",
+  "support": "按税收贡献或投资强度给予租金补贴、装修补贴或成长奖励。",
+  "deadline": "随入驻协议约定",
+  "source": "各产业园区管委会",
+  "source_url": "https://www.tjbh.gov.cn/",
+  "link_checked": false,
+  "source_checked_at": "2026-11-05 19:39",
+  "source_status": "ok",
+  "source_hash": "e994466372e5eea9",
+  "source_changed_at": "2026-11-05 12:13"
+ }
+]
